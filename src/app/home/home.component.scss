@@ -1,0 +1,40 @@
+$mmmelo-avatar-image-size: 120px;
+$mmmelo-company-image-size: 70px;
+
+#home {
+  margin: 0 0 10px 0;
+  text-transform: capitalize;
+  mat-card {
+    width: 500px;
+  }
+
+  #home-content {
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .mmmelo-avatar-image {
+    background-size: cover;
+    width: $mmmelo-avatar-image-size;
+    height: $mmmelo-avatar-image-size;
+  }
+
+  #home-content-experience {
+    overflow: auto;
+  }
+  #home-content-experience-content {
+    margin: 10px 0 20px 0;
+
+    .mmmelo-avatar-image {
+      background-size: cover;
+      width: $mmmelo-company-image-size;
+      height: $mmmelo-company-image-size;
+      margin-left: 25px;
+    }
+  }
+
+  #home-content-skills-chip {
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,12 @@
+<div class="mmmelo-theme">
+  <mat-toolbar color="" *ngIf="debugMode">
+    <mat-toolbar-row>
+      <span class="toolbar-space"></span>
+      <a routerLink="/home"><fa-icon [icon]="faHome"></fa-icon></a>
+      <a routerLink="/github"><fa-icon [icon]="faGithub"></fa-icon></a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <div class="topRouter"></div>
+  <router-outlet></router-outlet>
+</div>
+

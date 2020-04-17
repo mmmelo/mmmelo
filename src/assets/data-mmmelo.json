@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "data": {
+    "header": {
+      "firstName": "marcel",
+      "lastName": "melo",
+      "title": "full stack developer",
+      "location" : "Orlando, florida area",
+      "currentExperience": "Bookit.com",
+      "profileImage": "https://media-exp1.licdn.com/dms/image/C5603AQEmQMZLjfUuwg/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=gfdssguJPSiiL9la2p6qUrojvTMRLV_cNWAwZH7bUSs"
+    },
+    "summary": [
+      "Ten years professional experience in software development, consulting and internet companies",
+      "Project developer with excellent knowledge of tools, platforms and frameworks for ERP, Web and Mobile solutions development"
+    ],
+    "pastExperience": [
+      {
+        "companyName": "Bookit.com",
+        "companylogo": "https://media-exp1.licdn.com/dms/image/C4D0BAQELYASvDyhWAw/company-logo_100_100/0?e=1594857600&v=beta&t=NCH6Phjk6YmYlvKEGZL6q-Lxd7BT8VU-8f46GD7hsD4",
+        "title": "web developer",
+        "location": "florida",
+        "headLine": "Hands On Development",
+        "stacks": ["php", "css", "javaScript", "mysql", "angular"]
+      },
+      {
+        "companyName": "GardenGrocer, Inc",
+        "companylogo": "https://media-exp1.licdn.com/dms/image/C4D0BAQEG4xX1yp6N_Q/company-logo_100_100/0?e=1594857600&v=beta&t=DUMVVl5WQHTMN0Wu5rIdYLsZA2r1sfSRrYovuwDvTk4",
+        "title": "Full Stack Developer",
+        "location": "florida",
+        "headLine": "Hands on development of real-time, web and mobile application frontend/ backend.",
+        "stacks": ["php", "css", "javaScript", "mysql", "angular", "nodejs", "ionic", "laravel"]
+      },
+      {
+        "companyName": "MyGSPN",
+        "companylogo": "https://media-exp1.licdn.com/dms/image/C510BAQHZ5YfMWYSFbg/company-logo_100_100/0?e=1594857600&v=beta&t=MSL-5mH8_W923fJfSbEYQLKfE2P7cEXP1l3DsJASRr0",
+        "title": "Full-stack Developer",
+        "location": "florida",
+        "headLine": "",
+        "stacks": ["php", "css", "javaScript", "mysql", "angular", "nodejs", "ionic", "laravel"]
+      },
+      {
+        "companyName": "Capgemini",
+        "companylogo": "https://media-exp1.licdn.com/dms/image/C510BAQFoHzR2wowTgQ/company-logo_100_100/0?e=1594857600&v=beta&t=ZRufwC01jHTjZIENuNyALzYDcQpaRwMgGgNt4vCxgXg",
+        "title": "UI Developer",
+        "location": "florida",
+        "headLine": "",
+        "stacks": ["angular", "nodejs", "css", "javaScript"]
+      },
+      {
+        "companyName": "Consultant",
+        "companylogo": "https://www.pngitem.com/pimgs/m/148-1489825_construction-png-icon-white-transparent-png.png",
+        "title": "Full Stack Developer",
+        "location": "brazil",
+        "headLine": "Hands on development",
+        "stacks": ["php", "css", "javaScript", "mysql", "angular", "nodejs", "ionic", "laravel", "clipper", "java", "c#"]
+      }
+    ],
+    "skills": ["php", "css", "javaScript", "mysql", "angular", "nodejs", "ionic", "laravel"]
+  }
+}
+

@@ -1,0 +1,12 @@
+@import "~@angular/material/theming";
+@include mat-core();
+
+$dark-primary: mat-palette($mat-grey, 50);
+$dark-accent: mat-palette($mat-amber, A200, A100, A400);
+$dark-warn: mat-palette($mat-red);
+
+$dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
+.mmmelo-theme {
+  @include angular-material-theme($dark-theme);
+}

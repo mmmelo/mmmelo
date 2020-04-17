@@ -1,0 +1,57 @@
+<div id="home">
+  <div id="home-content" fxLayout="column" fxLayoutGap="10px" fxFlexAlign="center center"  *ngIf="profileUser">
+    <mat-card>
+      <mat-card-header>
+        <div fxLayout="row" fxLayoutAlign="start center" fxFlexFill>
+          <div fxFlex >
+            <img mat-card-avatar class="mmmelo-avatar-image" [src]="profileUser?.header?.profileImage">
+          </div>
+          <div fxLayout="column" fxFlex fxGrow="2">
+            <mat-card-title>{{profileUser?.header?.firstName}} {{profileUser?.header?.lastName}}</mat-card-title>
+            <mat-card-subtitle>{{profileUser?.header?.title}}</mat-card-subtitle>
+            <mat-card-subtitle>{{profileUser?.header?.currentExperience}}</mat-card-subtitle>
+            <mat-card-subtitle>{{profileUser?.header?.location}}</mat-card-subtitle>
+          </div>
+        </div>
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card id="home-content-experience">
+
+      <mat-card-header fxLayout="column" >
+        <div id="home-content-experience-header" fxLayoutAlign="center center" fxFlexFill>
+          <h1>Experience</h1>
+        </div>
+
+        <mat-divider inset></mat-divider>
+
+        <div id="home-content-experience-content" fxLayout="row" fxFlexFill *ngFor="let exp of profileUser.pastExperience; let last = last" fxLayoutGap="50px">
+          <div fxFlex fxLayout="center center">
+            <img mat-card-avatar class="mmmelo-avatar-image" [src]="exp?.companylogo">
+          </div>
+          <div fxLayout="column" fxFlex fxGrow="3">
+            <mat-card-title>{{exp.companyName}}</mat-card-title>
+            <mat-card-subtitle>{{exp.title}} / {{exp.location}}</mat-card-subtitle>
+            <mat-card-subtitle>{{exp.headLine}}</mat-card-subtitle>
+            <mat-divider inset *ngIf="!last"></mat-divider>
+          </div>
+        </div>
+
+      </mat-card-header>
+    </mat-card>
+
+    <mat-card>
+      <div id="home-content-skills" fxLayoutAlign="center center" fxFlexFill>
+        <h1 >Skills</h1>
+      </div>
+      <mat-divider inset></mat-divider>
+      <div id="home-content-skills-chip" fxLayout="row">
+        <mat-chip-list aria-label="Skills" *ngFor="let skill of profileUser?.skills">
+          <mat-chip [ngStyle]="{'background-color': skill.color}">{{skill.name}}</mat-chip>
+        </mat-chip-list>
+      </div>
+
+    </mat-card>
+
+  </div>
+</div>
