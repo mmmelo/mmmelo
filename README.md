@@ -5,28 +5,22 @@
   <a href="https://www.linkedin.com/in/mmmelo/">
       <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mmmelo/" alt="Linkedin" />
   </a>
-<a href="https://badges.pufler.dev">
+  <a href="https://badges.pufler.dev">
     <img src="https://badges.pufler.dev/visits/mmmelo/git" alt="Visitors badge" />
   </a>
 </div>
 
-<div align="center" style="display: none">
-  
-  ![PHP](https://img.shields.io/badge/-php-7478AE?style=flat&logoColor=white&logo=php) 
-    ![HTML](https://img.shields.io/badge/-HTML-ff0d00?style=flat&logoColor=white&logo=html5) 
-  ![CSS](https://img.shields.io/badge/-CSS-196eff?style=flat&logoColor=white&logo=css3) 
-  ![ANGULAR](https://img.shields.io/badge/-ANGULAR-ff0d00?style=flat&logoColor=white&logo=angular) 
-  
-</div>
+## 🛠 Tech Stack
+- **Languages:** PHP, JavaScript, HTML5, CSS3
+- **Frameworks:** Laravel, Angular, Vue.js, Node.js
+- **Databases:** MySQL, MongoDB, DynamoDB
+- **Cloud Services:** AWS Lambda, API Gateway, S3
+- **Tools:** Docker, Git, AWS, Laravel Forge, Envoyer
+- **Other Skills:** Microservices, WebSockets, RESTful APIs
 
-<p align="left">
-  <a href="https://github.com/mmmelo/github-readme-stats">
-    <img align="left" height="180px" width="47%" src="https://github-readme-stats.vercel.app/api?username=mmmelo&count_private=true&layout=compact&show_icons=true&theme=solarized-dark" />
-  </a>
-</p>
+## 🎯 Current Focus
 
-<p align="right">
-  <a href="https://github.com/mmmelo">
-    <img align="right" height="180px" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmmelo&layout=compact&theme=solarized-dark&hide=HTML,Jupyter Notebook" />
-  </a>
-</p>
+- **Python** for scalable and efficient backend systems.
+- **AWS Lambda** to enhance serverless architectures and streamline cloud-native application development.
+
+
